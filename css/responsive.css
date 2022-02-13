@@ -1,0 +1,267 @@
+@media (max-width: 1366px) {
+  .bg-header {
+    max-width: 1366px;
+    width: 100%;
+  }
+  .nav {
+    margin-left: 0px;
+    max-width: 1366px;
+    width: 100%;
+  }
+  .logo {
+    max-width: 100px;
+    width: 100%;
+    padding-top: 10px;
+  }
+  .red-box {
+    background-color: #a80e0e;
+    max-width: 300px;
+    width: 100%;
+    height: 109px;
+  }
+  .order-box {
+    max-width: 500px;
+    width: 100%;
+    height: 243px;
+    margin-left: 0px;
+    padding-top: 353px;
+  }
+  .order-box h1 {
+    max-width: 600px;
+    width: 100%;
+    letter-spacing: 30;
+    color: #ffffff;
+    font: normal normal normal 50px "Montserrat", sans-serif;
+    padding-left: 29px;
+  }
+
+  .order-box p {
+    max-width: 388px;
+    width: 100%;
+    height: 98px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: left;
+    letter-spacing: 0.66px;
+    padding-left: 29px;
+  }
+  .order-button {
+    max-width: 150px;
+    width: 100%;
+    height: 68px;
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+  .order-button a {
+    font-family: "Montserrat", sans-serif;
+    padding: 18px;
+    padding-top: 25px;
+    font-size: 15px;
+    margin-left: 10px;
+  }
+  .order-arrow {
+    display: none;
+  }
+}
+
+@media (max-width: 1189px) {
+  .footer-par {
+    max-width: 263px;
+  }
+  .links-list-2 {
+    display: none;
+  }
+  .footer-box-list {
+    max-width: 150px;
+  }
+}
+
+@media (max-width: 945px) {
+  .box-ul {
+    display: none;
+  }
+  .red-box {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+  }
+  .bar-menu {
+    display: block;
+    font-size: 40px;
+    color: white;
+    padding-top: 50%;
+    transform: translateY(-25%);
+    font-weight: lighter;
+  }
+}
+
+/* pizza delivety guy photo */
+@media (max-width: 1187px) {
+  .pizza-man-box {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .pizza-man-box img {
+    width: 500px;
+    height: 500px;
+    margin-top: 351px;
+  }
+}
+
+@media (max-width: 930px) {
+  .sec-3-color {
+    height: 600px;
+  }
+  .pizza-man-box img {
+    width: 300px;
+    height: 300px;
+    margin-top: 300px;
+  }
+  .wraper-box {
+    margin-top: 200px;
+  }
+  /* happy hours divs */
+  .happy-hours-box {
+    margin-left: 100px;
+  }
+}
+
+@media (max-width: 880px) {
+  .testimonials-box {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .sec-6-bg {
+    height: 1500px;
+  }
+}
+
+@media (max-width: 850px) {
+  .info-box {
+    padding-left: 50px;
+  }
+}
+@media (max-width: 699px) {
+  .image-box-container {
+    justify-content: center;
+  }
+  .happy-hours-box {
+    max-width: 400px;
+    width: 100%;
+  }
+  .happy-hours-box p {
+    text-align: left;
+    margin-left: 0px;
+  }
+  .map-wraper {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media (max-width: 742px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .links-list-2 {
+    display: block;
+  }
+  .footer-box {
+    max-width: 400px;
+    padding-top: 50px;
+  }
+  .footer-box p {
+    max-width: 400px;
+  }
+  .footer-box-list {
+    max-width: 400px;
+    display: block;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+  }
+  .footer-box-instagram {
+    max-width: 400px;
+    margin-top: 50px;
+  }
+}
+@media (max-width: 699px) {
+  .map-section {
+    height: 1300px;
+  }
+}
+
+@media (max-width: 670px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .box {
+    max-width: 150px;
+    width: 100%;
+  }
+  .box a {
+    width: 100%;
+  }
+
+  .box-4,
+  .box-5,
+  .box-6 {
+    display: none;
+  }
+  /* section 3 */
+  .pizza-man-box img {
+    display: none;
+  }
+  .nav-ul {
+    display: none;
+  }
+  .title-container h2,
+  p {
+    text-align: center;
+  }
+}
+
+@media (max-width: 560px) {
+  .happy-hours-box {
+    margin-left: 10px;
+  }
+  .happy-hours-box h2 {
+    font-size: 40px;
+  }
+  .happy-hours-box p {
+    font-size: 18px;
+  }
+  .time-h4 {
+    text-align: left;
+    justify-content: left;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 29px;
+    margin-bottom: 29px;
+  }
+  .time {
+    width: 50px;
+    height: 50px;
+  }
+  .time-container {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 449px) {
+  .section-2-color {
+    height: 850px;
+  }
+}
+
+@media (max-width: 330px) {
+  .nav.sticky {
+    max-width: 330px;
+    width: 100%;
+  }
+}
